@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 (function(window) {
 
   /*
@@ -253,6 +255,9 @@
    *     event, 'light-green'
    */
 
+  btn13.addEventListener('click', function(event){
+    setMyLightClass.bind(this)(event, 'light-green');
+  });
 
   /*
    * Add a click event listener to btn14
