@@ -266,6 +266,7 @@
    * on the setMyLightGreen function
    */
 
+  btn14.addEventListener('click', setMyLightGreen.bind(btn14));
 
   /*
    * Add a click event listener to btn15
